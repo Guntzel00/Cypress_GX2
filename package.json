@@ -1,0 +1,23 @@
+{
+  "name": "modelo-projeto-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "teste": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "cypress": "^12.16.0",
+    "faker-br": "^0.4.1",
+    "fetch-component-data": "^11.0.0"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "faker": "^6.6.6"
+  }
+}
