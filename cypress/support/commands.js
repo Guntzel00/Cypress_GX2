@@ -1,4 +1,6 @@
-import login from '../e2e/Pages/indexLogin/indexLogin';
+import { LoginPage } from '../e2e/Pages/indexLogin/indexLogin';
+
+const login = new LoginPage();
 
 // ***********************************************
 // This example commands.js shows you how to

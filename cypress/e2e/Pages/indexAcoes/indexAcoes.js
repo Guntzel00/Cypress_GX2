@@ -12,8 +12,8 @@ class Acoes {
 			'GET',
 			'https://dev-gateway.aperam.com/saia/tags?undefined'
 		).as('suaRequisicao');
-		cy.get('@inputPropostoPor').click();
 		cy.wait('@suaRequisicao');
+		cy.get('@inputPropostoPor').click();
 
 		// Seleciona o campo 'Proposto por', escolhendo o primeiro nome da lista
 		cy.get(

@@ -13,4 +13,10 @@ class LoginPage {
 			.click();
 	}
 }
-export default new LoginPage();
+
+class LoginErrado {
+	preencherEmailErrado() {
+		cy.get('#user').type(Cypress.env('emailErrado@gmail.com'));
+	}
+}
+export { LoginPage, LoginErrado };
